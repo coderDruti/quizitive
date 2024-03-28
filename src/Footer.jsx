@@ -1,9 +1,19 @@
 export default function Footer() {
   return (
     <div className="Footer">
-      <p className="ImportantLinks">Important links</p>
-      <p className="SeePricing">Home</p>
-      <p className="SeePricing">See pricing</p>
+      <span className="ImportantLinks">Important links</span>
+      <ul className="Implinks">
+        <li>
+          <a className="SeePricing" href="/">
+            Home
+          </a>
+        </li>
+        <li>
+          <a className="SeePricing" href="Plans.jsx">
+            See pricing
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }

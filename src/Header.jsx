@@ -6,10 +6,10 @@ export default function Header() {
         <img src="/Frame_2.svg" alt="Logo" />
       </a>
       <div className="Group1">
-        <a className="CreateQuiz" href="Create.jsx">
-          Create Quiz
+        <a className="links" href="Create.jsx">
+          CreateQuiz
         </a>
-        <a className="CreateQuiz" href="Register.jsx">
+        <a className="links" href="Register.jsx">
           Register/Login
         </a>
       </div>
