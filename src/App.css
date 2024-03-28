@@ -1,37 +1,54 @@
 div.Header {
   display: flex;
   justify-content: space-between;
+  position: sticky;
 }
 .Quiz {
+  margin: 0;
   color: #440179;
   font-size: 64px;
   font-family: Inika;
   font-weight: 400;
-  word-wrap: break-word;
 }
 div.Group1 {
   width: 214px;
   height: 50px;
-  position: relative;
+  display: flex;
+  justify-content: space-evenly;
 }
-div.Rectangle1 {
-  width: 214px;
-  height: 50px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #8b00f8;
-}
-div.CreateQuiz {
+.CreateQuiz {
   width: 139.35px;
   height: 28.38px;
-  left: 37px;
-  top: 10.81px;
-  position: absolute;
-  text-align: center;
+  background: #8b00f8;
   color: #bd85e9;
   font-size: 24px;
   font-family: Inika;
   font-weight: 400px;
-  word-wrap: break-word;
+  text-decoration: none;
+}
+.MainContent {
+  width: 1440px;
+  height: 823px;
+  position: relative;
+}
+.Footer {
+  height: 100px;
+  position: relative;
+  background: #440179;
+}
+.ImportantLinks {
+  left: 11px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Inika;
+  font-weight: 400;
+}
+.SeePricing {
+  left: 11px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Inika;
+  font-weight: 400;
 }

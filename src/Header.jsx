@@ -2,10 +2,16 @@ export default function Header() {
   return (
     <div className="Header">
       <p className="Quiz">InQuizitive</p>
-      <img src="/quizitive/src/assets/Frame_2.jpg" alt="Logo" />
+      <a href="/">
+        <img src="/Frame_2.svg" alt="Logo" />
+      </a>
       <div className="Group1">
-        <div className="Rectangle1" />
-        <div className="CreateQuiz">Create Quiz</div>
+        <a className="CreateQuiz" href="Create.jsx">
+          Create Quiz
+        </a>
+        <a className="CreateQuiz" href="Register.jsx">
+          Register/Login
+        </a>
       </div>
     </div>
   );
