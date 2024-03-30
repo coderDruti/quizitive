@@ -32,6 +32,15 @@ div.Group1 {
   height: 823px;
   position: relative;
 }
+.para1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.ActiveRecall {
+  height: 300px;
+  position: relative;
+}
 .Footer {
   height: 100px;
   position: relative;
