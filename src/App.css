@@ -32,14 +32,19 @@ div.Group1 {
   height: 823px;
   position: relative;
 }
-.para1 {
+.para {
   display: flex;
   justify-content: space-around;
   margin: 10px;
 }
 .ActiveRecall {
-  height: 300px;
+  padding: 7px;
+  height: 400px;
   position: relative;
+}
+.para1 {
+  color: antiquewhite;
+  word-wrap: break-word;
 }
 .Footer {
   height: 100px;
